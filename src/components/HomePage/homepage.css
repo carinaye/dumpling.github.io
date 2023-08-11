@@ -1,0 +1,23 @@
+.nav-container {
+  display: flex;
+  /* justify-content: flex-end;  */
+}
+
+.nav-link {
+  display: block; 
+  width: 33.3%; 
+  padding: 20px 0; 
+  text-align: center; 
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  transition: background-color 0.3s ease; 
+}
+
+.nav-link:hover {
+  background-color: #555; 
+}
+
+.about-link {
+  font-size: 20px; 
+}
