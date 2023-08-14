@@ -1,6 +1,7 @@
 import React from 'react'
 import backgroundImage from '../Images/background.jpg'
 import logo from '../Images/logo.png'
+import { Link } from 'react-router-dom';
 
 // import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 // import Contact from '../Contact/contact.js'
