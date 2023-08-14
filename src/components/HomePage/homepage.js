@@ -2,10 +2,10 @@ import React from 'react'
 import backgroundImage from '../Images/background.jpg'
 import logo from '../Images/logo.png'
 
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import Contact from '../Contact/contact.js'
-import About from '../About/about.js'
-import Order from '../Order/order.js';
+// import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+// import Contact from '../Contact/contact.js'
+// import About from '../About/about.js'
+// import Order from '../Order/order.js';
 import './homepage.css'
 
 const HomePage = () => {
