@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.486eabef.css",
+    "main.js": "/static/js/main.dd54863c.js",
+    "static/media/background.jpg": "/static/media/background.e14ac193abaf5c9cf8dc.jpg",
+    "static/media/logo.png": "/static/media/logo.7213cc9fe54dcd4366de.png",
+    "static/media/wonton.jpg": "/static/media/wonton.f146cfc0c9eceb625244.jpg",
+    "static/media/hellohobart.png": "/static/media/hellohobart.44f9f316f47cdf3a935b.png",
+    "static/media/hargow.jpeg": "/static/media/hargow.3a90f6bbeb6eeab5052b.jpeg",
+    "static/media/gyoza.jpeg": "/static/media/gyoza.54492f9c0749d752269e.jpeg",
+    "static/media/prawnbun.jpg": "/static/media/prawnbun.0a4576bc5516942ef160.jpg",
+    "static/media/piggy.jpeg": "/static/media/piggy.fb1aa3aa0697ec7289f7.jpeg",
+    "static/media/xiaolongbao.jpg": "/static/media/xiaolongbao.a34754cc1f281e538d3a.jpg",
+    "index.html": "/index.html",
+    "main.486eabef.css.map": "/static/css/main.486eabef.css.map",
+    "main.dd54863c.js.map": "/static/js/main.dd54863c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.486eabef.css",
+    "static/js/main.dd54863c.js"
+  ]
+}
