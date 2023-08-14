@@ -14,9 +14,9 @@ const Order = () => {
     setCartItems(updatedCart);
   };
 
-  const toggleCartVisibility = () => {
-    setIsCartVisible(!isCartVisible);
-  };
+  // const toggleCartVisibility = () => {
+  //   setIsCartVisible(!isCartVisible);
+  // };
 
   return (
     <div className="order-container">
@@ -78,5 +78,3 @@ const Cart = ({ cartItems, removeFromCart }) => {
 };
 
 export default Order;
-
-
