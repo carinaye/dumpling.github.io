@@ -32,5 +32,5 @@ jobs:
       #   run: aws s3 sync ./build/ s3://${{ secrets.BUCKET }} 
 
       - name: Deploy assets to S3
-        run: aws s3 sync ./build/ s3://${{ secrets.BUCKET }} -- delete
+        run: aws s3 sync ./build/ s3://${{ secrets.BUCKET }} --delete
 
