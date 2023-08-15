@@ -28,9 +28,9 @@ jobs:
       - name: Build app
         run: REACT_APP_API_KEY=${{ secrets.API_KEY }} npm run build
 
-      - name: Deploy assets to S3
-        run: aws s3 sync ./build/ s3://${{ secrets.BUCKET }} 
-
       # - name: Deploy assets to S3
-      #   run: aws s3 sync ./build/ s3://${{ secrets.BUCKET }} -- delete
+      #   run: aws s3 sync ./build/ s3://${{ secrets.BUCKET }} 
+
+      - name: Deploy assets to S3
+        run: aws s3 sync ./build/ s3://${{ secrets.BUCKET }} -- delete
 
