@@ -15,6 +15,7 @@ const Contact = () => {
   };
  
   useEffect(() => {
+    console.log(selectedCity)
     if (selectedCity) {
     const url = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(restaurantName)}+${encodeURIComponent(selectedCity)}&key=${API_KEY}`;
 
